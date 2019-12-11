@@ -1,0 +1,68 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+}
+body{
+	font-family: 'Domine', serif;
+}
+nav{
+	text-align: center;
+	height: 50px;
+	font-size: 25px;
+}
+.container{
+	background: #eee;
+}
+.dzienniczke{
+	height: 1440px;
+}
+.godzinka{
+	height: 60px;
+	margin-left: 50px;
+	width: 300px;
+	text-align: center
+}
+.godzina{
+	width: 40px;
+}
+.opis{
+	width: 170px;
+}
+.godzina, .opis{
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-bottom: 0;
+	display: inline-block;
+}
+.plusik:hover{
+	cursor: pointer;
+}
+.menu{
+	position: fixed;
+	right: 30px;
+	top: 30px;
+	padding: 25px;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+}
+.menu>ul>li{
+	list-style-type: none;
+	padding: 10px 0;
+	text-align: center;
+	cursor: all-scroll;
+}
+.divider{
+	min-height: 0px;
+	height: 2px;
+	background-color: #ddd;
+	width: 100%;
+	clear: both;
+	padding: 0px !important;
+	}
+/*.godzinka:nth-child(odd){
+	background: #9ccc65;
+}
+.godzinka:nth-child(even){
+	background: #ef9a9a;
+}*/
